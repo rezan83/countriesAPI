@@ -20,7 +20,7 @@ vercel dev
 ```
 
 all countries `http://localhost:3000`.
-country by name `http://localhost:3000.country/<country_name>`.
+country by name `http://localhost:3000/name/<name>`.
 
 ## One-Click Deploy
 
