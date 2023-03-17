@@ -5,7 +5,7 @@
 
 ## country by name "/name/${name}".
 
-## basd on vercel flask template:
+## based on vercel flask template:
 # Flask + Vercel
 
 This example shows how to use Flask 2 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
