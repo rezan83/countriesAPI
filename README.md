@@ -1,10 +1,16 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask&demo-title=Flask%20%2B%20Vercel&demo-description=Use%20Flask%202%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
 
+ # country api easy to deploy on vercel:
+## all countries "/".
+
+## country by name "/name/${name}".
+
+## basd on vercel flask template:
 # Flask + Vercel
 
 This example shows how to use Flask 2 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
 
-## Demo
+## original template example demo
 
 https://flask-python-template.vercel.app/
 
@@ -19,8 +25,7 @@ npm i -g vercel
 vercel dev
 ```
 
-all countries `http://localhost:3000`.
-country by name `http://localhost:3000/name/<name>`.
+
 
 ## One-Click Deploy
 
