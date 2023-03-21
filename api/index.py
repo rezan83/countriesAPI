@@ -14,8 +14,10 @@ def home():
 
 @app.route('/name/<country_name>')
 def country_by_name(country_name):
+    country_name = country_name.replace("%20", " ")
+
     def select_name(c): return True if c["name"]["common"].lower(
     ) == country_name.lower() else False
- 
+
     countries_by_name = list(filter(select_name, countries))
     return json.dumps(countries_by_name)
